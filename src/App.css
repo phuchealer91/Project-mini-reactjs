@@ -22,7 +22,37 @@
 .App-link {
   color: #61dafb;
 }
-
+p{
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+}
+#content{
+  text-align: left;
+  padding: 8px;
+  border: 2px solid red;
+}
+.active{
+  border: 3px solid black;
+}
+/* .card .text-white{
+  width: 30px;
+  height: 30px;
+} */
+.uppercase{
+  text-transform: uppercase;
+}
+span{
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}
+input {
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  border: 2px solid red;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
